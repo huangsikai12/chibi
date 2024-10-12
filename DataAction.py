@@ -35,7 +35,6 @@ def getHd():
     if getHdInfor.status_code == 200:
         try:
             hdInfo = getHdInfor.json()
-            print('响应内容:', hdInfo)
             key = input('您要抢课的活动名称是：' + hdInfo['hdfbsq']['hdfbbt'] + "如要开始抢课请输入y:")
             if key == 'y':
                 addBm()
