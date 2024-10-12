@@ -11,6 +11,7 @@ def setData():
 
 if __name__ == "__main__":
     print("欢迎使用上海商学院第二课堂抢课脚本！请在使用之前阅读README文档~！")
+    print("Designed by 黄斯恺")
     try:
         setData()
     except:
